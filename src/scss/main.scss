@@ -1,0 +1,35 @@
+/*! shuffle */
+
+.shuffle::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.shuffle-item {
+    max-width: 300px;
+    float: left;
+}
+
+
+/* lightbox */
+
+.shuffle-lightbox {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.shuffle-lightbox .shuffle-window {
+    background: #fff;
+    bottom: 10%;
+    left: 10%;
+    max-width: 100%;
+    padding: 30px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
