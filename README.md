@@ -1,3 +1,3 @@
 profile-shuffle
 -------
-A small JavaScript to randomly shuffle profiles
+A small script to randomly shuffle profiles
