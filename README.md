@@ -1,2 +1,3 @@
-shuffle
--------s
+#shuffle
+
+A small script to shuffle profiles
