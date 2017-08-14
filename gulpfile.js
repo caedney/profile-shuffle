@@ -42,10 +42,7 @@ gulp.task('js', function() {
         .pipe(gulp.dest('./dist/js'))
         .pipe(rename('main.min.js'))
         .pipe(uglify({
-            compress: true,
-            output: {
-                beautify: false
-            }
+            compress: true
         }))
         .pipe(gulp.dest('./dist/js'));
 });
