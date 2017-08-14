@@ -1,7 +1,3 @@
-/**
- * Shuffle Layout v1.0.0
- * Dependencies : jQuery
- */
 
 (function($) {
     'use strict';
